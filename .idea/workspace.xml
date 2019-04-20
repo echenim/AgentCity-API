@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0708d411-407a-4f3e-80df-891410ceac62" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/agentcity/utilities/string_util.clj" afterDir="false" />
+    <list default="true" id="0708d411-407a-4f3e-80df-891410ceac62" name="Default Changelist" comment="k">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/agentcity.iml" beforeDir="false" afterPath="$PROJECT_DIR$/agentcity.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/agentcity/utilities/string_util.clj" beforeDir="false" afterPath="$PROJECT_DIR$/src/agentcity/utilities/string_util.clj" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -44,8 +43,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/agentcity/utilities/string_util.clj">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="408">
-              <caret line="24" column="67" selection-start-line="24" selection-start-column="67" selection-end-line="24" selection-end-column="67" />
+            <state relative-caret-position="34">
+              <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
             </state>
           </provider>
         </entry>
@@ -58,7 +57,10 @@
         <option value="Myron William Echenim &lt;myron.echenim@gmail.com&gt;" />
       </list>
     </option>
+    <option name="UPDATE_TYPE" value="MERGE" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="SIGN_OFF_COMMIT" value="true" />
+    <option name="SWAP_SIDES_IN_COMPARE_BRANCHES" value="true" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -105,13 +107,6 @@
               <item name="agentcity" type="462c0819:PsiDirectoryNode" />
               <item name="models" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="agentcity" type="b2602c69:ProjectViewProjectNode" />
-              <item name="agentcity" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="agentcity" type="462c0819:PsiDirectoryNode" />
-              <item name="utilities" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -123,7 +118,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1555730415292" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1555787110900" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -171,7 +166,7 @@
       <option name="presentableId" value="Default" />
       <updated>1555710515523</updated>
       <workItem from="1555710526387" duration="4476000" />
-      <workItem from="1555729655346" duration="729000" />
+      <workItem from="1555729655346" duration="2250000" />
     </task>
     <task id="LOCAL-00001" summary="k">
       <created>1555729864855</created>
@@ -184,13 +179,13 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5205000" />
+    <option name="totallyTimeSpent" value="6726000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -208,10 +203,10 @@
       <window_info anchor="bottom" id="Studio Actions" order="8" />
       <window_info anchor="bottom" id="Terminal" order="9" />
       <window_info anchor="bottom" id="Docker" order="10" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" visible="true" weight="0.32921812" />
+      <window_info active="true" anchor="bottom" id="Event Log" order="11" sideWeight="0.50065106" side_tool="true" visible="true" weight="0.32921812" />
       <window_info anchor="bottom" id="Studio AD Violations" order="12" />
       <window_info anchor="bottom" id="Database Changes" order="13" />
-      <window_info anchor="bottom" id="Version Control" order="14" />
+      <window_info anchor="bottom" id="Version Control" order="14" sideWeight="0.49934897" visible="true" weight="0.32921812" />
       <window_info anchor="bottom" id="Spec Violations" order="15" />
       <window_info anchor="bottom" id="Structural Issues" order="16" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -273,8 +268,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/agentcity/utilities/string_util.clj">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="24" column="67" selection-start-line="24" selection-start-column="67" selection-end-line="24" selection-end-column="67" />
+        <state relative-caret-position="34">
+          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
         </state>
       </provider>
     </entry>
