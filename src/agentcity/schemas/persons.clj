@@ -15,11 +15,15 @@
   (str/length-in-range? 6 100 address))
 
 
+
+
 ;Schema for Person that will be mapped to table
 (sc/defschema PersonSchema
-  {:FirstName (sc/constrained sc/Str valid-first-name?)
+  {:Id (sc/Int)
+   :FirstName (sc/constrained sc/Str valid-first-name?)
    :LastName (sc/constrained sc/Str valid-last-name?)
    :PhoneNumber (sc/constrained sc/Str valid-phonenumber?)
    :Email (sc/constrained sc/Str str/email?)
+   :GenderId (sc/Int)
    :ContactAddress (sc/constrained sc/Str valid-contact-address?)})
 

@@ -13,6 +13,7 @@
 
 ;User schema defination
 (sc/defschema UserSchema
-  {:UserName (sc/constrained sc/Str valid-username?)
+  {:Id (sc/Int)
+   :UserName (sc/constrained sc/Str valid-username?)
    :Password (sc/constrained sc/Str valid-password?)
    :Email (sc/constrained sc/Str valid-email?)})
