@@ -1,6 +1,7 @@
 (ns agentcity.schemas.users
-  (:require [schema.core :as s]
+  (:require [schema.core :as sc]
             [agentcity.utilities.string_util :as str]))
+
 (defn valid-username? [name]
   (str/non-blank-with-max-length? 50 name))
 
@@ -11,7 +12,7 @@
   (str/email?  email))
 
 ;User schema defination
-(s/defschema UserSchema
-  {:UserName (s/constrained s/Str valid-username?)
-   :Password (s/constrained s/Str valid-password?)
-   :Email (s/constrained s/Str valid-email?)})
+(sc/defschema UserSchema
+  {:UserName (sc/constrained sc/Str valid-username?)
+   :Password (sc/constrained sc/Str valid-password?)
+   :Email (sc/constrained sc/Str valid-email?)})
