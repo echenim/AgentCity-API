@@ -3,20 +3,27 @@
             [toucan.models :as models]
             [ring.adapter.jetty :refer [run-jetty]]
             [compojure.api.sweet :refer [routes]]
-            [agentcity.userendpoints :refer [user-routes]])
+            [spec-tools.swagger.core :as swagger]
+            [agentcity.endpoints.user :refer [user-routes]])
   (:gen-class))
 
-(def app (apply routes user-routes))
-
 (def db-spec
-  {:dbtype "postgres"
-   :dbname "restful-crud"
-   :user "postgres"
-   :password "postgres"})
+   {:dbtype "postgres"
+    :dbname "restful-crud"
+    :user "postgres"
+    :password "test"})
 
-(defn -main
-  [& args]
-  (db/set-default-db-connection! db-spec)
-  (models/set-root-namespace! 'agentcity.models))
-  (run-jetty app {:port 3000})
+  (def swagger-config
+    {:ui "/swagger"
+     :spec "/swagger.json"
+     :options {:ui {:validatorUrl nil}
+               :data {:info {:version "1.0.0", :title "Restful CRUD API"}}}})
 
+  (def app (api {:swagger swagger-config} (apply routes user-routes)))
+
+
+  (defn -main
+    [& args]
+    (db/set-default-db-connection! db-spec)
+    (models/set-root-namespace! agentcity.models)
+    (run-jetty app {:port 30000}))
